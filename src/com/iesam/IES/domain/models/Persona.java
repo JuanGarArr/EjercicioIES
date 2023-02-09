@@ -1,7 +1,7 @@
 package com.iesam.IES.domain.models;
 
 public interface Persona {
-     public Integer id = null;
+     public Integer id = null ;
      public String nombre = null;
      public String apellidos = null;
      public String dni = null;
