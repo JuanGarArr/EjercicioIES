@@ -1,6 +1,6 @@
 package com.iesam.IES.domain.models;
 
-public class Alumnos extends Persona {
+public class Alumnos implements Persona {
     private String madre;
     private String padre;
     private String email;

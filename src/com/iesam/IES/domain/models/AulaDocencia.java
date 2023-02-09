@@ -1,6 +1,6 @@
 package com.iesam.IES.domain.models;
 
-public class AulaDocencia extends Aulas{
+public class AulaDocencia implements Aulas{
 
     private String tipoPizarra;
 

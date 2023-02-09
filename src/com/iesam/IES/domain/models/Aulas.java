@@ -1,49 +1,48 @@
 package com.iesam.IES.domain.models;
 
-public class Aulas {
-    private Integer id;
-    private String planta;
-    private Integer sillas;
-    private Integer capacidad;
-    private Cursos cursos;
+public interface Aulas {
+    public Integer id = null;
+    public String planta = null;
+    public Integer sillas = null;
+    public Integer capacidad = null;
+    public Cursos cursos = null;
 
-    public Integer getId() {
+    public static Integer getId() {
         return id;
     }
 
-    public void setId(Integer id) {
-        this.id = id;
+    public static void setId(Integer id) {
+
     }
 
-    public String getPlanta() {
+    public static String getPlanta() {
         return planta;
     }
 
-    public void setPlanta(String planta) {
-        this.planta = planta;
+    public static void setPlanta(String planta) {
     }
 
-    public Integer getSillas() {
+    public static Integer getSillas() {
         return sillas;
     }
 
-    public void setSillas(Integer sillas) {
-        this.sillas = sillas;
+    public static void setSillas(Integer sillas) {
+
     }
 
-    public Integer getCapacidad() {
+    public static Integer getCapacidad() {
         return capacidad;
     }
 
-    public void setCapacidad(Integer capacidad) {
-        this.capacidad = capacidad;
+    public static void setCapacidad(Integer capacidad) {
+
     }
 
-    public Cursos getCursos() {
+    public static Cursos getCursos() {
         return cursos;
     }
 
-    public void setCursos(Cursos cursos) {
-        this.cursos = cursos;
+    public static void setCursos(Cursos cursos) {
+
     }
 }

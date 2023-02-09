@@ -1,49 +1,49 @@
 package com.iesam.IES.domain.models;
 
-public class Persona {
-    private Integer id;
-    private String nombre;
-    private String apellidos;
-    private String dni;
-    private String direccion;
+public interface Persona {
+     public Integer id = null;
+     public String nombre = null;
+     public String apellidos = null;
+     public String dni = null;
+     public String direccion = null;
 
-    public Integer getId() {
+    public static Integer getId() {
         return id;
     }
 
-    public void setId(Integer id) {
-        this.id = id;
+    public static void setId(Integer id) {
+
     }
 
-    public String getNombre() {
+    public static String getNombre() {
         return nombre;
     }
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
+    public static void setNombre(String nombre){
+
     }
 
-    public String getApellidos() {
+    public static String getApellidos() {
         return apellidos;
     }
 
-    public void setApellidos(String apellidos) {
-        this.apellidos = apellidos;
+    public static void setApellidos(String apellidos) {
+
     }
 
-    public String getDni() {
+    public static String getDni() {
         return dni;
     }
 
-    public void setDni(String dni) {
-        this.dni = dni;
+    public static void setDni(String dni) {
+
     }
 
-    public String getDireccion() {
+    public static String getDireccion() {
         return direccion;
     }
 
-    public void setDireccion(String direccion) {
-        this.direccion = direccion;
+    public static void setDireccion(String direccion) {
+
     }
 }

@@ -1,6 +1,6 @@
 package com.iesam.IES.domain.models;
 
-public class AulaOrdenadores extends Aulas{
+public class AulaOrdenadores implements Aulas{
     private Integer numOrdenadores;
     private String tipoOrdenadores;
 
